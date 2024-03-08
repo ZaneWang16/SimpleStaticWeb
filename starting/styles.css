@@ -1,0 +1,126 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+header h1{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+}
+.font{
+    border: 2px solid #000;
+}
+.font a{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+}
+
+.text{
+    border: 2px solid #000;
+}
+.text a{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+}
+
+/* COLOR STYLE*/
+.color {
+    display: flex;
+    justify-content: center; /* Center the flex items horizontally */
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    border: 2px solid #000;
+}
+
+.color > div {
+    /* Style each color section as a separate box */
+    width: calc(20% - 20px); /* Set the width of each box (adjust as needed) */
+    margin: 0 10px 20px; /* Add margin between boxes */
+    display: inline-block; /* Arrange boxes in a row */
+    vertical-align: top; /* Align boxes to the top */
+    background-color: rgb(212, 219, 226);
+}
+
+/* Optional: Add styling for headings */
+.color h1, .color h2 {
+    margin-bottom: 10px; /* Add some spacing below headings */
+}
+
+.color h1, .font h1, .text h1{
+    width: 100%; /* Make the h1 span across the entire width */
+    text-align: center;
+}
+
+/*Netural-Tones color*/
+.white{ 
+    background-color:#FFFFFF;
+    
+}
+.beige{
+    background-color: #F5F5DC;
+    
+}
+.gray{
+    background-color: #808080;
+}
+
+/*Earthy-hues color8*/
+.taupe{
+    background-color: #483C32;
+    color:whitesmoke;
+}
+.olive{
+    background-color: #556B2F;
+}
+
+/*Subdued Pastels color*/
+.soft-blue{
+    background-color: #ADD8E6;
+}
+.dusty-rose{
+    background-color: #D2B48C;
+}
+
+/*Rich Jewel Tones color*/
+.navy-blue{
+    background-color: #000080;
+    color:whitesmoke;
+}
+.burgundy{
+    background-color: #800020;
+    color:whitesmoke;
+}
+
+/*Metallic Accents color*/
+.gold{
+    background-color: #FFD700;
+}
+.silver{
+    background-color: #C0C0C0;
+}
+
+.color h2{
+    text-align: center;
+}
+
+.neutral-tones ul {
+    padding:0 30px; /* Adjust the padding as needed */
+}
+.earthy-hues ul {
+    padding:0 30px; /* Adjust the padding as needed */
+}
+.subdued-pastels ul {
+    padding:0 30px; /* Adjust the padding as needed */
+}
+.rich-jewel-tones ul {
+    padding:0 30px; /* Adjust the padding as needed */
+}
+.metallic-accents ul {
+    padding:0 30px; /* Adjust the padding as needed */
+}
+
+
+
